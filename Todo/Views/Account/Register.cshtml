@@ -1,0 +1,39 @@
+﻿@model User
+
+<div class="w-100">
+	<h1>Registeration Form</h1>
+	<form asp-action="SubmitRegister" asp-controller="Account">
+		<div>
+			<label asp-for="Name"></label>
+			<input class="form-control" asp-for="Name" />
+			<span asp-validation-for="Name"> </span>
+		</div>
+		<div>
+			<label asp-for="Email"></label>
+			<input class="form-control" asp-for="Email" />
+			<span asp-validation-for="Email"> </span>
+		</div>
+		<div>
+			<label asp-for="Password"></label>
+			<input class="form-control" asp-for="Password" type="password" />
+			<span asp-validation-for="Password"> </span>
+		</div>
+		<div>
+			<label asp-for="Role"></label>
+			<select class="form-control" asp-for="Role">
+				<option value="User">User</option>
+				<option value="Admin">Admin</option>
+			</select>
+			<span asp-validation-for="Role"> </span>
+		</div>
+		<input type="submit" class="btn btn-primary mt-5"/>
+	</form>
+</div>
+
+
+
+@section Scripts{
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

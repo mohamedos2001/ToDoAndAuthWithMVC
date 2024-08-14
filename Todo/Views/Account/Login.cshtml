@@ -1,0 +1,26 @@
+﻿
+@model LoginCred
+<div class="w-100">
+	<h1>Login</h1>
+	<form asp-action="SubmitLogin" asp-controller="Account">
+		<div>
+			<label asp-for="Email"></label>
+			<input class="form-control" asp-for="Email" />
+			<span asp-validation-for="Email"> </span>
+		</div>
+		<div>
+			<label asp-for="Password"></label>
+			<input class="form-control" asp-for="Password" type="password" />
+			<span asp-validation-for="Password"> </span>
+		</div>
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<input type="submit" class="btn btn-primary mt-4"/>
+	</form>
+</div>
+
+
+@section Scripts{
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

@@ -1,0 +1,26 @@
+﻿@model Category
+
+
+@{
+	var Action = (Model == null) ? "SaveNewCategory" : "SaveEditCategory";
+	var word = (Model == null) ? "Create" : "Update";
+}
+
+<div class="w-100">
+	<h3 class="mb-5">@word New Category</h3>
+	<div asp-validation-summary="All"></div>
+	<form method="post" asp-action="@Action" asp-controller="Category" asp-route-id="@Model?.Id">
+		<div>
+			<label asp-for="Name"></label>
+			<input class="form-control" asp-for="Name" />
+			<span class="text-danger" asp-validation-for="Name"></span>
+		</div>
+		<input type="submit" class="btn btn-primary mt-4" />
+	</form>
+</div>
+
+@section Scripts{
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\MVC\\Todo\\Todo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{442C0E28-B0B9-4CE1-A392-D74128A11005}|Todo\\Todo.csproj|d:\\iti\\mvc\\todo\\todo\\todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442C0E28-B0B9-4CE1-A392-D74128A11005}|Todo\\Todo.csproj|solutionrelative:todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442C0E28-B0B9-4CE1-A392-D74128A11005}|Todo\\Todo.csproj|d:\\iti\\mvc\\todo\\todo\\todo\\context\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442C0E28-B0B9-4CE1-A392-D74128A11005}|Todo\\Todo.csproj|solutionrelative:todo\\context\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442C0E28-B0B9-4CE1-A392-D74128A11005}|Todo\\Todo.csproj|d:\\iti\\mvc\\todo\\todo\\todo\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442C0E28-B0B9-4CE1-A392-D74128A11005}|Todo\\Todo.csproj|solutionrelative:todo\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442C0E28-B0B9-4CE1-A392-D74128A11005}|Todo\\Todo.csproj|d:\\iti\\mvc\\todo\\todo\\todo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442C0E28-B0B9-4CE1-A392-D74128A11005}|Todo\\Todo.csproj|solutionrelative:todo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442C0E28-B0B9-4CE1-A392-D74128A11005}|Todo\\Todo.csproj|d:\\iti\\mvc\\todo\\todo\\todo\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442C0E28-B0B9-4CE1-A392-D74128A11005}|Todo\\Todo.csproj|solutionrelative:todo\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoContext.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\Todo\\Todo\\Todo\\Context\\TodoContext.cs",
+              "RelativeDocumentMoniker": "Todo\\Context\\TodoContext.cs",
+              "ToolTip": "D:\\ITI\\MVC\\Todo\\Todo\\Todo\\Context\\TodoContext.cs",
+              "RelativeToolTip": "Todo\\Context\\TodoContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T12:20:35.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\Todo\\Todo\\Todo\\Program.cs",
+              "RelativeDocumentMoniker": "Todo\\Program.cs",
+              "ToolTip": "D:\\ITI\\MVC\\Todo\\Todo\\Todo\\Program.cs",
+              "RelativeToolTip": "Todo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T12:05:44.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\Todo\\Todo\\Todo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Todo\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\ITI\\MVC\\Todo\\Todo\\Todo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Todo\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAywDsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T12:03:26.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\Todo\\Todo\\Todo\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "Todo\\Controllers\\TodoController.cs",
+              "ToolTip": "D:\\ITI\\MVC\\Todo\\Todo\\Todo\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "Todo\\Controllers\\TodoController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAywAIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T12:03:26.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\Todo\\Todo\\Todo\\Models\\Todo.cs",
+              "RelativeDocumentMoniker": "Todo\\Models\\Todo.cs",
+              "ToolTip": "D:\\ITI\\MVC\\Todo\\Todo\\Todo\\Models\\Todo.cs",
+              "RelativeToolTip": "Todo\\Models\\Todo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T12:03:26.409Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
